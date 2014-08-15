@@ -1,0 +1,12 @@
+# Add class to body tag
+page.bodyTag >
+
+page.bodyTagCObject = COA
+page.bodyTagCObject {
+    wrap = <body class="|">
+    100 = TEXT
+    100 {
+        data = page:tx_lboextendpages_mainclass
+        noTrimWrap = | | |
+    }
+}
